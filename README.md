@@ -3,9 +3,12 @@
 
 # 运行server
 cd EasyTcpServer
+
 g++ interactive_server.cpp -I header/ -o server
+
 ./server
 
 # 运行client
 cd EasyTcpClient
+
 g++ client.cpp -I header/ -o client
